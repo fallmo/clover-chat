@@ -2,6 +2,8 @@
 
 FROM docker.io/node:18 as build-stage
 
+ENV VITE_SITE_TITLE=Clover VITE_SITE_BRAND=Honeyside VITE_BACKEND_URL=https://clover-backend.apps.origins.heritage.africa VITE_DEMO=false VITE_SHOW_CREDITS=true
+
 WORKDIR /app
 
 COPY package*.json ./
