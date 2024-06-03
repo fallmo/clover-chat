@@ -13,13 +13,13 @@ function Info() {
           <img src={logo} alt="Picture" />
         </div>
         <div className="text">
-          Welcome to
+          Welcome to Origins Office Communication:
           {' '}
-          {Config.appName || 'Clover'}
+          {Config.appName || 'OOC'}
           !
           <br />
           <br />
-          {Config.appName || 'Clover'}
+          {Config.appName || 'OOC'}
           {' '}
           is a messaging app that enables real-time messaging, audio and video calls,
           groups and conferencing.
@@ -28,7 +28,7 @@ function Info() {
       <div className="text">
         Copyright &copy;
         {' '}
-        {Config.brand || 'Honeyside'}
+        {Config.brand || 'Accel Technologies'}
         <br />
         v
         {version}

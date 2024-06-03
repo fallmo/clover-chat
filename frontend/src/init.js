@@ -55,7 +55,7 @@ const init = async () => {
   }
 
   const state = {
-    version: '2.9.0',
+    version: '1.0.0',
     entryPath: window.location.pathname,
     token,
     user: user || (token ? jwtDecode(token) : {}),
