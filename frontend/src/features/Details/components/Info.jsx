@@ -13,7 +13,7 @@ function Info() {
           <img src={logo} alt="Picture" />
         </div>
         <div className="text">
-          Welcome to Origins Office Communication:
+          Welcome to 
           {' '}
           {Config.appName || 'OOC'}
           !
